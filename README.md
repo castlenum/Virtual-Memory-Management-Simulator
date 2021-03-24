@@ -35,4 +35,32 @@ process 1 opening ./mtraces/bzip.trace
 Num of Frames 1048576 Physical Memory Size 4294967296 bytes
 =============================================================
 The Two-Level Page Table Memory Simulation Starts .....
-=============================================================</pre></code>
+=============================================================
+Two-Level procID 0 traceNumber 1 virtual addr 41f7a0 physical addr 7a0
+Two-Level procID 1 traceNumber 1 virtual addr 7b243a0 physical addr 13a0
+Two-Level procID 0 traceNumber 2 virtual addr 13f5e2c0 physical addr 22c0
+Two-Level procID 1 traceNumber 2 virtual addr 228d40 physical addr 3d40
+Two-Level procID 0 traceNumber 3 virtual addr 5e78900 physical addr 4900
+Two-Level procID 1 traceNumber 3 virtual addr 228d60 physical addr 3d60
+Two-Level procID 0 traceNumber 4 virtual addr 4758a0 physical addr 58a0
+......
+......
+Two-Level procID 1 traceNumber 999997 virtual addr 6645ba0 physical addr 723ba0
+Two-Level procID 0 traceNumber 999998 virtual addr 249db050 physical addr 12c050
+Two-Level procID 1 traceNumber 999998 virtual addr 5fe8440 physical addr a2440
+Two-Level procID 0 traceNumber 999999 virtual addr 2f8773e0 physical addr 3ae3e0
+Two-Level procID 1 traceNumber 999999 virtual addr 6645ba0 physical addr 723ba0
+Two-Level procID 0 traceNumber 1000000 virtual addr 3d729358 physical addr 24358
+Two-Level procID 1 traceNumber 1000000 virtual addr 5fe5180 physical addr 2eb180
+**** ./mtraces/gcc.trace *****
+Proc 0 Num of traces 1000000
+Proc 0 Num of second level page tables allocated 164
+Proc 0 Num of Page Faults 2852
+Proc 0 Num of Page Hit 997148
+**** ./mtraces/bzip.trace *****
+Proc 1 Num of traces 1000000
+Proc 1 Num of second level page tables allocated 39
+Proc 1 Num of Page Faults 317
+Proc 1 Num of Page Hit 999683
+
+</pre></code>
