@@ -28,45 +28,5 @@
 
 
 # 3) 수행 예
-<pre><code></code>$ ./memsim -s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace </pre>
-$ ./memsim –s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace process 0 
-opening ./mtraces/gcc.trace
-process 1 opening ./mtraces/bzip.trace
-Num of Frames 1048576 Physical Memory Size 4294967296 bytes ============================================================= The Two-Level Page Table Memory Simulation Starts ..... ============================================================= Two-Level procID 0 traceNumber 1 virtual addr 2f8773d8 pysical addr 3d8 
-Two-Level procID 1 traceNumber 1 virtual addr 6645b58 pysical addr 1b58 
-Two-Level procID 0 traceNumber 2 virtual addr 3d729358 pysical addr 2358 
-Two-Level procID 1 traceNumber 2 virtual addr 6645b58 pysical addr 1b58
-......
-...... Two-Level procID 0 traceNumber 999999 virtual addr 2f8773e0 pysical addr 3ae3e0 
-Two-Level procID 1 traceNumber 999999 virtual addr 6645ba0 pysical addr 723ba0 
-Two-Level procID 0 traceNumber 1000000 virtual addr 3d729358 pysical addr 24358 
-Two-Level procID 1 traceNumber 1000000 virtual addr 5fe5180 pysical addr 2eb180
-**** ../mtraces/gcc.trace ***** Proc 0 
-Num of traces 1000000
-Proc 0 Num of second level page tables allocated 164 Proc 0 
-Num of Page Faults 2852
-Proc 0 Num of Page Hit 997148
-**** ../mtraces/bzip.trace ***** Proc 1 
-Num of traces 1000000
-Proc 1 Num of second level page tables allocated 39 Proc 1 
-Num of Page Faults 317
-Proc 1 Num of Page Hit 999683
-=Test Case=
-memsim –s 0 10 20 ./mtraces/gcc.trace ./mtraces/bzip.trace ./mtraces/random0.trace
-memsim –s 1 10 32 ./mtraces/bzip.trace
-memsim –s 2 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace
-memsim –s 3 10 24 ./mtraces/gcc.trace ./mtraces/bzip.trace ./mtraces/bzip.trace
-memsim 3 10 18 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace
-./mtraces/swim.trace ./mtraces/random0.trace ./mtraces/random2.trace
-memsim 3 10 22 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace
-./mtraces/swim.trace ./mtraces/random0.trace ./mtraces/random2.trace
-memsim 3 7 19 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace ./mtraces/swim.trace./mtraces/random0.trace ./mtraces/random2.trace
-memsim 3 9 20 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace
-./mtraces/swim.trace
-./mtraces/random0.trace ./mtraces/random2.trace ./mtraces/bzip.trace
-./mtraces/gcc.trace
-./mtraces/sixpack.trace ./mtraces/swim.trace ./mtraces/random0.trace ./mtraces/random2.trace 
-memsim 3 8 21 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace
-./mtraces/swim.trace
-./mtraces/random0.trace ./mtraces/random2.trace ./mtraces/bzip.trace ./mtraces/gcc.trace
-./mtraces/sixpack.trace ./mtraces/swim.trace ./mtraces/random0.trace ./mtraces/random2.trace
+<pre><code>$ ./memsim -s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace </pre></code>
+<pre><code>{}</pre></code>
