@@ -64,3 +64,12 @@ Proc 1 Num of Page Faults 317
 Proc 1 Num of Page Hit 999683
 
 </pre></code>
+# 4) Test Case
+<pre><code>
+$ ./memsim –s 0 10 20 ./mtraces/gcc.trace ./mtraces/bzip.trace ./mtraces/random0.trace
+$ ./memsim –s 1 10 32 ./mtraces/bzip.trace$
+$ ./memsim –s 2 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace
+$ ./memsim –s 3 10 24 ./mtraces/gcc.trace ./mtraces/bzip.trace ./mtraces/bzip.trace
+$ ./memsim 3 10 18 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace ./mtraces/swim.trace ./mtraces/random0.trace ./mtraces/random2.trace
+$ ./memsim 3 10 22 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace ./mtraces/swim.trace ./mtraces/random0.trace ./mtraces/random2.trace
+$ ./memsim 3 7 19 ./mtraces/bzip.trace ./mtraces/gcc.trace ./mtraces/sixpack.trace ./mtraces/swim.trace</code></pre>
