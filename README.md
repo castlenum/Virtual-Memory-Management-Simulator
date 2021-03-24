@@ -28,7 +28,7 @@
 
 
 # 3) 수행 예
-<pre><code></code>$ ./memsim –s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace</pre>
+<pre><code></code>$ ./memsim -s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace </pre>
 $ ./memsim –s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace process 0 
 opening ./mtraces/gcc.trace
 process 1 opening ./mtraces/bzip.trace
