@@ -29,4 +29,10 @@
 
 # 3) 수행 예
 <pre><code>$ ./memsim -s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace </pre></code>
-<pre><code>{}</pre></code>
+<pre><code>process 0 opening ./mtraces/gcc.trace
+process 1 opening ./mtraces/bzip.trace
+
+Num of Frames 1048576 Physical Memory Size 4294967296 bytes
+=============================================================
+The Two-Level Page Table Memory Simulation Starts .....
+=============================================================</pre></code>
