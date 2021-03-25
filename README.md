@@ -28,6 +28,8 @@
 
 
 # 3) 수행 예
+CentOS 7, Ubuntu환경에서 같은 값이 나오는 것을 확인하였으나, Windows에서 Git Bash로 실행했을 때 값이 다르게 출력되는 것을 확인하였다.   
+Linux환경에서 사용해볼 것을 권장드린다.  
 <pre><code>$ ./memsim -s 1 10 32 ./mtraces/gcc.trace ./mtraces/bzip.trace </pre></code>
 <pre><code>process 0 opening ./mtraces/gcc.trace
 process 1 opening ./mtraces/bzip.trace
