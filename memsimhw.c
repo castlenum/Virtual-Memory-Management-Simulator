@@ -3,7 +3,7 @@
 // Two-level page table system with LRU
 // Inverted page table with a hashing system 
 // Submission Year:2019/10
-// Student Name:
+// Student Name: Jeong Seong Soo
 // Student Number:B411187
 //
 #include <stdio.h>
